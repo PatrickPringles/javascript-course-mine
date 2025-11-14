@@ -1,7 +1,7 @@
 // JavaScript Fundamentals - Part 1
 // We'll write our code here!
 
-/* let js = "amazing";
+let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
 
@@ -9,12 +9,12 @@ console.log(40 + 8 + 23 - 10);
 console.log("=== DATA TYPES ===");
 
 // Number (integers and decimals)
-let age = 23;
+let age = 21;
 console.log(age);
 console.log(typeof age); // "number"
 
 // String (text in quotes)
-let firstName = "Jonas";
+let firstName = "Patrick";
 console.log(firstName);
 console.log(typeof firstName); // "string"
 
@@ -24,18 +24,36 @@ console.log(javascriptIsFun);
 console.log(typeof javascriptIsFun); // "boolean"
 
 // Undefined (no value assigned yet)
-let year;
+let year = 2004;
 console.log(year); // undefined
 console.log(typeof year); // "undefined"
 
 let dynamicVariable = 23;
 
-dynamicVariable = "Now Im a dynamic text fahh";
+dynamicVariable = "The world will burn brighter than ever.";
 console.log(dynamicVariable);   
 
 dynamicVariable = true;
-console.log(dynamicVariable); 
+console.log(dynamicVariable);
 
+let favoriteNumber = 67
+console.log(favoriteNumber);
+console.log(typeof favoriteNumber);
+
+let like = "I'm liking Javascript so far.";
+console.log(like);
+console.log(typeof like);
+
+let score = 100;
+console.log(score);
+console.log(typeof score);
+
+console.log(typeof 42);
+console.log(typeof "Hello");
+console.log(typeof true);
+console.log(typeof undefined);
+
+/*
 ////////////////////////////////////
 // Basic Operators - Math operators
 console.log("=== MATH OPERATORS ===");
@@ -157,6 +175,7 @@ if (money) {
 ////////////////////////////////////
 // Coding Challenge #1 - BMI Calculator
 
+/*
 // Test Data 1
 const massMark = 78;
 const heightMark = 1.69;
@@ -166,6 +185,8 @@ const heightJohn = 1.95;
 const BMIMark = massMark / heightMark ** 2;
 const BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log(`Mark's BMI ${BMIMark.toFixed(2)}, John's BMI ${BMIJohn.toFixed(2)}`);
+*/
+
 /* alternative way to calculate BMI
 const BMI = mass / (height * height);
 const BMI = mass / height ** 2;
@@ -174,6 +195,7 @@ let BMI = mass / height ** 2;
 console.log("Mark's BMI:", BMI = massMark / (heightMark ** 2));
 console.log("John's BMI:", BMI = massJohn / (heightJohn ** 2)); */
 
+/*
 const markHigherBMI = (massMark / (heightMark ** 2)) > (massJohn / (heightJohn ** 2));
 console.log("Is Mark's BMI higher than John 's?", markHigherBMI);
 
@@ -216,3 +238,4 @@ console.log("5" / 2); //it's 2.5, earlier.
 //explicit conversion
 const userAge = "25";
 const userScore = "95";
+*/
